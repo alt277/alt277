@@ -1,5 +1,4 @@
 package com.flamexander.netty.example.client;
-
 import java.io.*;
 import java.net.Socket;
 

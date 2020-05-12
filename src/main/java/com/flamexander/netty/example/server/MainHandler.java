@@ -28,13 +28,12 @@ public class MainHandler extends ChannelInboundHandlerAdapter {
 //                        Files.write(Paths.get("server_storage/"
 //                                        + fm.getFilename()), fm.getData(), StandardOpenOption.CREATE);
 //            System.out.println("instance of file message works");
-//            String str=" пытались записать в серверное хранилище";
+//            String str=" пытался записать в серверное хранилище";
 //            FileRequest f=new FileRequest(str);
 //            ctx.writeAndFlush(f);
                      //   refreshLocalFilesList1();
 //                    }
 //        System.out.println(" пытались записать в серверное хранилище");
-       // Files.createFile(Paths.get("server_storage/","just.txt"));
     }
 
     @Override
