@@ -35,7 +35,6 @@ public class MainHandler extends ChannelInboundHandlerAdapter {
 //                    }
 //        System.out.println(" пытались записать в серверное хранилище");
     }
-
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
         cause.printStackTrace();
