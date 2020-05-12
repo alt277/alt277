@@ -24,7 +24,7 @@ public class MainHandler extends ChannelInboundHandlerAdapter {
             }
         }
 //        if (msg instanceof FileMessage) {
-//                        FileMessage fm = (FileMessage) msg;
+//                       FileMessage fm = (FileMessage) msg;
 //                        Files.write(Paths.get("server_storage/"
 //                                        + fm.getFilename()), fm.getData(), StandardOpenOption.CREATE);
 //            System.out.println("instance of file message works");
